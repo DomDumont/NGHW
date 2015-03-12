@@ -5,10 +5,10 @@ compiler:
 
 
 before_install:
- - echo $TRAVIS_JOB_ID
+ - echo $(TRAVIS_JOB_ID)
     
 script: cmake --version
 
-after_install:
- - echo $TRAVIS_JOB_ID
+after_success:
+ - echo $(TRAVIS_JOB_ID)
 
