@@ -1,0 +1,3 @@
+D:/realisations/NGHW/mak/CMakeFiles/NGHW.dir
+D:/realisations/NGHW/mak/CMakeFiles/ALL_BUILD.dir
+D:/realisations/NGHW/mak/CMakeFiles/ZERO_CHECK.dir
