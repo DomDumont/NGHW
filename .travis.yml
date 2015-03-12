@@ -4,8 +4,11 @@ compiler:
   - gcc
 
 
-
+before_install:
+ - echo $TRAVIS_JOB_ID
     
 script: cmake --version
 
+after_install:
+ - echo $TRAVIS_JOB_ID
 
