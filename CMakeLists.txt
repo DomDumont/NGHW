@@ -10,7 +10,7 @@ link_directories(Extern/TestLib/lib/${CMAKE_BUILD_TYPE})
 
 # add the executable
 
-add_executable(NGHW Sources/main.cpp)
+add_executable(NGHW Sources/Main.cpp)
 target_link_libraries(NGHW        TestLib )
 
 add_custom_command(TARGET NGHW POST_BUILD
